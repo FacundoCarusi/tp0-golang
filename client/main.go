@@ -25,11 +25,14 @@ func main() {
 
 	// ADVERTENCIA: Antes de continuar, tenemos que asegurarnos que el servidor esté corriendo para poder conectarnos a él
 
-	// enviar un mensaje al servidor con el valor de la config
+	// enviar un mensaje al servidor con el valor de la config       (??????????)
 
 	// leer de la consola el mensaje
-	// utils.LeerConsola()
+
+	utils.LeerConsola()
+	log.Println("Mensaje leído de la consola")
 
 	// generamos un paquete y lo enviamos al servidor
-	// utils.GenerarYEnviarPaquete()
+	utils.GenerarYEnviarPaquete()
+	log.Println("Paquete enviado al servidor")
 }
